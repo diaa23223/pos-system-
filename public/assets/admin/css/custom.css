@@ -1,0 +1,137 @@
+:root {
+    /* اللون الأساسي: أزرق فاتح */
+    --bs-primary: #3B82F6 !important;
+    --bs-primary-rgb: 59, 130, 246 !important;
+
+    /* اللون الثانوي: أخضر ناعم */
+    --bs-secondary: #10B981 !important;
+    --bs-secondary-rgb: 16, 185, 129 !important;
+
+    /* لون الخلفية العامة: رمادي فاتح */
+    --bs-body-bg: #ff62 !important;
+    --bs-body-bg-rgb: 243, 244, 246 !important;
+
+    /* لون النصوص: رمادي غامق */
+    --bs-body-color: rgba(104, 122, 61, 0.333) !important;
+    --bs-body-color-rgb: 31, 41, 55 !important;
+
+    /* لون الـ Success: أخضر */
+    --bs-success: #10B981 !important;
+    --bs-success-rgb: 16, 185, 129 !important;
+
+    /* لون الـ Warning: برتقالي ناعم */
+    --bs-warning: #F59E0B !important;
+    --bs-warning-rgb: 245, 158, 11 !important;
+
+    /* لون الـ Danger: أحمر ناعم */
+    --bs-danger: #EF4444 !important;
+    --bs-danger-rgb: 239, 68, 68 !important;
+}
+
+/* الـ Sidebar */
+.sidebar {
+    background-color: #2a323f !important; /* أزرق داكن */
+    color: #787a74a1 !important; /* النص أبيض */
+}
+
+.sidebar .nav-link {
+    color: #ffffff !important; /* الروابط بيضاء */
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+    background-color: #1F2937 !important; /* أزرق أفتح شوية عند الـ Hover أو الـ Active */
+}
+
+/* الـ Navbar */
+.navbar {
+    background-color: #f4f7f7 !important; /* أزرق غامق جدًا */
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #BFDBFE !important; /* النص أبيض */
+}
+
+.navbar .nav-link:hover {
+    color: #BFDBFE !important; /* أزرق فاتح عند الـ Hover */
+}
+
+/* الكروت */
+.card {
+    border: 1px solid #1F2937 !important; /* حدود رمادية خفيفة */
+}
+
+.card.bg-primary {
+    background-color: #3B82F6 !important; /* أزرق فاتح */
+    color: #ffffff !important;
+}
+
+.card.bg-secondary {
+    background-color: #10B981 !important; /* أخضر */
+    color: #ffffff !important;
+}
+
+.card.bg-success {
+    background-color: #10B981 !important; /* أخضر */
+    color: #ffffff !important;
+}
+
+.card.bg-warning {
+    background-color: #F59E0B !important; /* برتقالي */
+    color: #ffffff !important;
+}
+
+.card.bg-danger {
+    background-color: #EF4444 !important; /* أحمر */
+    color: #ffffff !important;
+}
+
+.card.text-white {
+    color: #ffffff !important; /* النص أبيض داخل الكروت الملونة */
+}
+
+
+
+.btn-primary:hover {
+    background-color: #2563EB !important; /* أزرق غامق شوية عند الـ Hover */
+    border-color: #2563EB !important;
+}
+
+.btn-secondary {
+    background-color: #10B981 !important; /* أخضر */
+    border-color: #10B981 !important;
+    color: #ffffff !important;
+}
+
+.btn-secondary:hover {
+    background-color: #0D9488 !important; /* أخضر غامق عند الـ Hover */
+    border-color: #0D9488 !important;
+}
+
+.btn-outline-primary {
+    color: #1F2937 !important;
+    border-color: #1F2937 !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: #1F2937 !important;
+    color: #1F2937 !important;
+}
+
+.btn-outline-secondary {
+    color: #84af4b !important;
+    border-color: #65b89c !important;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #10B981 !important;
+    color: #1F2937 !important;
+}
+
+/* لون النصوص في الـ Dashboard */
+body,
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #1F2937 !important; /* رمادي غامق للنصوص */
+}
